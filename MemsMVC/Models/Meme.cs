@@ -8,8 +8,7 @@ namespace MemsMVC.Models
     public class Meme
     {
         public int Id { get; set; }
-        public string Name { get; set; }
         public string Source { get; set; }
-        public int Result { get; set; }
+        public double Result { get; set; }
     }
 }

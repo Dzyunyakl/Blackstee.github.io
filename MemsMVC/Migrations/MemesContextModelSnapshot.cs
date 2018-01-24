@@ -25,9 +25,7 @@ namespace MemsMVC.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Name");
-
-                    b.Property<int>("Result");
+                    b.Property<double>("Result");
 
                     b.Property<string>("Source");
 

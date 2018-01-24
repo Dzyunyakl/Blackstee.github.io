@@ -18,7 +18,35 @@ namespace MemsMVC.Controllers
         public ActionResult Index()
         {
             var data = _context.Memes.OrderByDescending(opt => opt.Result).ToList();
+            
+            ViewBag.First = data.FirstOrDefault();
+            data.RemoveAt(0);
+            ViewBag.Second = data.FirstOrDefault();
+            data.RemoveAt(0);
+            ViewBag.Third = data.FirstOrDefault();
+            data.RemoveAt(0);
+
             return View(data);
         }
+        //Filling the DB fields with MEMES data.
+
+        //[HttpPost]
+        //public ActionResult PostData()
+        //{
+        //    string text = System.IO.File.ReadAllText(@"C:\Users\dzyun\source\repos\Blackstee.github.io\list_urls.txt");
+        //    IEnumerable<String> lines = System.IO.File.ReadLines(@"C:\Users\dzyun\source\repos\Blackstee.github.io\list_urls.txt");
+
+        //    foreach (var line in lines)
+        //    {
+        //        _context.Memes.Add(new Models.Meme
+        //        {
+        //            Source = line
+        //        });
+        //    }
+
+        //    _context.SaveChanges();
+
+        //    return Ok();
+        //}
     }
 }

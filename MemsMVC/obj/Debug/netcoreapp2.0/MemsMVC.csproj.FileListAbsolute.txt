@@ -19,3 +19,14 @@ C:\Users\dzyun\Documents\GitHub\Blackstee.github.io\MemsMVC\obj\Debug\netcoreapp
 C:\Users\dzyun\Documents\GitHub\Blackstee.github.io\MemsMVC\bin\Debug\netcoreapp2.0\MemsMVC.pdb
 C:\Users\dzyun\Documents\GitHub\Blackstee.github.io\MemsMVC\obj\Debug\netcoreapp2.0\MemsMVC.dll
 C:\Users\dzyun\Documents\GitHub\Blackstee.github.io\MemsMVC\obj\Debug\netcoreapp2.0\MemsMVC.pdb
+C:\Users\dzyun\Source\Repos\Blackstee.github.io\MemsMVC\bin\Debug\netcoreapp2.0\MemsMVC.deps.json
+C:\Users\dzyun\Source\Repos\Blackstee.github.io\MemsMVC\bin\Debug\netcoreapp2.0\MemsMVC.runtimeconfig.json
+C:\Users\dzyun\Source\Repos\Blackstee.github.io\MemsMVC\bin\Debug\netcoreapp2.0\MemsMVC.runtimeconfig.dev.json
+C:\Users\dzyun\Source\Repos\Blackstee.github.io\MemsMVC\bin\Debug\netcoreapp2.0\MemsMVC.dll
+C:\Users\dzyun\Source\Repos\Blackstee.github.io\MemsMVC\bin\Debug\netcoreapp2.0\MemsMVC.pdb
+C:\Users\dzyun\Source\Repos\Blackstee.github.io\MemsMVC\obj\Debug\netcoreapp2.0\MemsMVC.csprojResolveAssemblyReference.cache
+C:\Users\dzyun\Source\Repos\Blackstee.github.io\MemsMVC\obj\Debug\netcoreapp2.0\MemsMVC.csproj.CoreCompileInputs.cache
+C:\Users\dzyun\Source\Repos\Blackstee.github.io\MemsMVC\obj\Debug\netcoreapp2.0\MemsMVC.AssemblyInfoInputs.cache
+C:\Users\dzyun\Source\Repos\Blackstee.github.io\MemsMVC\obj\Debug\netcoreapp2.0\MemsMVC.AssemblyInfo.cs
+C:\Users\dzyun\Source\Repos\Blackstee.github.io\MemsMVC\obj\Debug\netcoreapp2.0\MemsMVC.dll
+C:\Users\dzyun\Source\Repos\Blackstee.github.io\MemsMVC\obj\Debug\netcoreapp2.0\MemsMVC.pdb

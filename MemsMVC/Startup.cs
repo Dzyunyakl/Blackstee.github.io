@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
+using System.IO;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace MemsMVC
 {
@@ -22,7 +24,10 @@ namespace MemsMVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<MemesContext>(opt => opt.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=MemesDB;Trusted_Connection=True;"));
+            var cur_dir = Directory.GetCurrentDirectory();
+
+            services.AddDbContext<MemesContext>(opt => opt.UseSqlServer(
+                @"Server=(localdb)\mssqllocaldb;AttachDbFilename="+cur_dir+@"\MemesDB.mdf;Database=MemesDB;Trusted_Connection=True;"));
             services.AddMvc();
         }
 
