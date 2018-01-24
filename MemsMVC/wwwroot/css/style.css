@@ -1,323 +1,308 @@
-
-body, html {
+body,
+html {
   height: 100%;
-  width:100%;    
+  width: 100%;
 }
-body{
-margin:0;
-padding:0;
-}
+
 body {
-  background-color:#3e3e3e;
+  margin: 0;
+  padding: 0;
 }
 
-a{
-    font-size: 50;
+body {
+  background-color: #3e3e3e;
 }
 
-
-.letter {
-    text-align: center;
-    color: white;
-    font-family: "Robotfont";
-    font-size: 30px;
-    margin-top: 10px;
+a {
+  font-size: 50;
 }
 
-#example{padding:0px 0px 0px 100px;display:none;}
-#example .new{opacity: 0;}
-#example .div_opacity{
-  -webkit-transition: opacity .1s ease-in-out;
-  -moz-transition: opacity .1s ease-in-out;
-  -ms-transition: opacity .1s ease-in-out;
-  -o-transition: opacity .1s ease-in-out;
-  transition: opacity .1s ease-in-out;
-  opacity: 1;}
-
-.mygif .mybuttons{
-    display: block;
+.tada {
+  animation-delay: 2s;
 }
 
+.mygif .mybuttons {
+  display: block;
+}
 
-.mygif{
+.col-md-2 {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col-md-8 {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.mygif {
   position: absolute;
   right: 45%;
   top: 7%;
   animation: zoomIn 3s;
-
 }
-.mybuttons{
+
+.mybuttons {
   position: absolute;
   right: 15%;
   top: 35%;
 }
 
-
-.mybutton3{
+.mybutton3 {
   position: absolute;
   padding-left: 35%;
   top: 5%;
 }
 
-p{
-    font-size: 50;
+p {
+  font-size: 50;
 }
 
-.choice{
-    width: 100%;
+.choice {
+  width: 100%;
 }
 
-li{
-    animation: zoomIn 3s;
+li {
+  animation: zoomIn 3s;
 }
-
-
 
 @media (max-width: 350px) {
-.fixmenu{
+  .fixmenu {
     position: fixed;
-    
-} 
-  
-.mygif{   
-  margin-top: 70%;  
-  position:relative;
-  clear: both;
-  z-index: -1000;
-  padding-left: 55%;   
-  padding-right: 5%;    
-    
-}  
-.mygif img{
-   max-width:500px;
-   width:200%; 
-    }    
-    
-.mybuttons{
-    width:100%;
-    top:5%;
+  }
+  .mygif {
+    margin-top: 70%;
+    position: relative;
     clear: both;
-    left:2%;
+    z-index: -1000;
+    padding-left: 55%;
+    padding-right: 5%;
+  }
+  .mygif img {
+    max-width: 500px;
+    width: 200%;
+  }
+  .mybuttons {
+    width: 100%;
+    top: 5%;
+    clear: both;
+    left: 2%;
     animation: none;
-
-} 
-html{
+  }
+  html {
     font-size: 10px;
-    }    
-.gallery li img {
-   width: 31.5rem;
-    }
-.gallery li {
+  }
+  .gallery li img {
+    width: 31.5rem;
+  }
+  .gallery li {
     display: block;
-    width:100%;
-}  
-.text{
+    width: 100%;
+  }
+  .memeimages {
     display: none;
-}    
-
+  }
 }
 
 @media (max-width: 450px) and (min-width: 350px) {
-.fixmenu{
+  .fixmenu {
     position: fixed;
-    
-}     
-.mygif{   
-  margin-top: 60%;  
-  position:relative;
-  clear: both;
-  z-index: -1000;
-  padding-left: 55%;   
-  padding-right: 0%;    
-    
-}  
-.mygif img{
-   max-width:500px;
-   width:160%; 
-    }    
-    
-.mybuttons{
-    width:100%;
-    top:5%;
+  }
+  .mygif {
+    margin-top: 60%;
+    position: relative;
     clear: both;
-    left:12%;
+    z-index: -1000;
+    padding-left: 55%;
+    padding-right: 0%;
+  }
+  .mygif img {
+    max-width: 500px;
+    width: 160%;
+  }
+  .mybuttons {
+    width: 100%;
+    top: 5%;
+    clear: both;
+    left: 12%;
     animation: none;
-
-} 
-
-.gallery li img {
-   width: 310px;
+  }
+  .gallery li img {
+    width: 310px;
     height: auto;
-    }
-.gallery li {
-  min-height: auto;
-  width: 310px;
-  height:auto;
-} 
-.text{
+  }
+  .gallery li {
+    min-height: auto;
+    width: 310px;
+    height: auto;
+  }
+  .memeimages {
     display: none;
-}     
- 
+  }
 }
 
 @media (max-width: 800px) and (min-width: 450px) {
-.fixmenu{
+  .fixmenu {
     position: fixed;
     margin: auto;
-}  
-.mygif{
-  width:inherit;
-  height: inherit;    
-  margin-top: 45%;  
-  position:relative;
-  left: 18%;
-
-}  
-    
-.mybuttons{
-    width:100%;
-    top:5%;
+  }
+  .mygif {
+    width: inherit;
+    height: inherit;
+    margin-top: 45%;
+    position: relative;
+    left: 18%;
+  }
+  .mybuttons {
+    width: 100%;
+    top: 5%;
     clear: both;
-    left:40%;
+    left: 40%;
     animation: none;
-    
-
-}  
-.gallery li img {
-   width: 551px;
-    }      
-
-.text{
+  }
+  .gallery li img {
+    width: 551px;
+  }
+  .memeimages {
     display: none;
-}     
+  }
 }
-
-
 
 @media (max-width: 1100px) and (min-width: 800px) {
-.fixmenu{
+  .fixmenu {
     position: fixed;
     margin: auto;
-    
-}     
-.mygif{
-  width:inherit;
-  height: inherit;    
-  margin-top: 45%;  
-  position:relative;
-  left: 40%;
-
-}  
-    
-.mybuttons{
-    width:100%;
-    top:5%;
+  }
+  .mygif {
+    width: inherit;
+    height: inherit;
+    margin-top: 45%;
+    position: relative;
+    left: 40%;
+  }
+  .mybuttons {
+    width: 100%;
+    top: 5%;
     clear: both;
-    left:60%;
-
-}  
-.gallery li img {
-   width: 551px;
-    } 
-.text{
+    left: 60%;
+  }
+  .gallery li img {
+    width: 551px;
+  }
+  .memeimages {
     display: none;
-}    
+  }
 }
-
 
 @media (max-width: 1440px) and (min-width: 1100px) {
-.mybuttons{
-  animation:  slideOutUp 0.9s infinite;
-  animation-direction: alternate;
-}
-
-.mybutton{
-  animation:  slideOutRight 0.8s infinite;
-  animation-direction: alternate;
-}
-
-.mybutton2{
-  animation:  slideInLeft 0.9s infinite;
-  animation-direction: alternate;
-}
-.gallery li img {
-   width: 551px;
-    }       
+  .mybuttons {
+    animation: slideOutUp 0.9s infinite;
+    animation-direction: alternate;
+  }
+  .mybutton {
+    animation: slideOutRight 0.8s infinite;
+    animation-direction: alternate;
+  }
+  .mybutton2 {
+    animation: slideInLeft 0.9s infinite;
+    animation-direction: alternate;
+  }
+  .gallery li img {
+    width: 551px;
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+  }
 }
 
 @media (min-width: 1440px) {
-    
-.mygif{
-  position: absolute;
-  right: 45%;
-  top: 7%;
-}
-.mybuttons{
-  position: absolute;
-  right: 15%;
-  top: 25%;
-}
-.mybuttons{
-  animation:  slideOutUp 0.9s infinite;
-  animation-direction: alternate;
-}
-
-.mybutton{
-  animation:  slideOutRight 0.8s infinite;
-  animation-direction: alternate;
-}
-
-.mybutton2{
-  animation:  slideInLeft 0.9s infinite;
-  animation-direction: alternate;
-}  
-.gallery li img {
-   width: 551px;
-    }       
+  .mygif {
+    position: absolute;
+    right: 45%;
+    top: 7%;
+  }
+  .mybuttons {
+    position: absolute;
+    right: 15%;
+    top: 25%;
+  }
+  .mybuttons {
+    animation: slideOutUp 0.9s infinite;
+    animation-direction: alternate;
+  }
+  .mybutton {
+    animation: slideOutRight 0.8s infinite;
+    animation-direction: alternate;
+  }
+  .mybutton2 {
+    animation: slideInLeft 0.9s infinite;
+    animation-direction: alternate;
+  }
+  .gallery li img {
+    width: 551px;
+    display: inline-block;
+  }
 }
 
 @media (min-width: 2560px) {
-    
-.mygif{
-  position: absolute;
-  right: 50%;
-  top: 7%;
+  .mygif {
+    position: absolute;
+    right: 50%;
+    top: 7%;
+  }
+  .mybuttons {
+    position: absolute;
+    right: 25%;
+    top: 17%;
+  }
+  .gallery li img {
+    width: 551px;
+  }
 }
-.mybuttons{
-  position: absolute;
-  right: 25%;
-  top: 17%;
-}  
-.gallery li img {
-   width: 551px;
-    }  
- .letter{
-    font-size: 40px;
-    }    
-}
-
-
 
 .gallery {
   margin-top: 30px;
   text-align: center;
   width: 100%;
-  padding: 2px;
+  padding: 0px;
 }
+
+.gallery ul {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
 .gallery li {
+  margin: 0;
+  padding: 0;
   min-height: 100%;
   text-align: center;
   position: relative;
   margin: 0 0;
   display: inline-block;
+  overflow: auto;
+  vertical-align: middle;
   overflow: hidden;
   background-color: transparent;
 }
+
 .gallery li:nth-child(2) img {
   margin: 0;
   display: inline-block;
+  vertical-align: middle;
   float: right;
 }
+
+.mybox {
+  max-height: 500px;
+  overflow: auto;
+}
+
 .gallery li .name {
   text-decoration: none;
   text-transform: uppercase;
@@ -337,6 +322,7 @@ html{
   width: 100%;
   height: 100%;
 }
+
 .gallery li .name .title {
   display: block;
   text-transform: none;
@@ -358,8 +344,8 @@ html{
   -webkit-transition-duration: 0.9s;
   transition-duration: 0.9s;
 }
+
 .gallery li:hover .name {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
   -moz-transform: scale(1.09, 1.09);
   -ms-transform: scale(1.09, 1.09);
@@ -374,18 +360,13 @@ html{
   -webkit-transition-duration: 0.6s;
   transition-duration: 0.6s;
 }
-.gallery li:hover .title {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-  opacity: 1;
-}
+
 .gallery li:hover img {
   -moz-transform: scale(1.09, 1.09);
   -ms-transform: scale(1.09, 1.09);
   -webkit-transform: scale(1.09, 1.09);
   transform: scale(1.09, 1.09);
   background-position: top top;
-  -webkit-filter: grayscale(0.4) blur(2px);
-  filter: grayscale(0.4) blur(2px);
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -395,15 +376,14 @@ html{
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
-.gallery li:hover:hover img {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5;
-}
+
 .gallery li img {
-  border: 4px solid white; 
-    border-radius: 5px;
+  overflow: auto;
+  border: 4px solid white;
+  border-radius: 5px;
   display: block;
-  margin: 0 auto;
+  margin: 0 0;
+  vertical-align: middle;
   display: inline-block;
   text-align: center;
   -moz-transform: scale(1, 1);
@@ -420,12 +400,76 @@ html{
   transition-duration: 0.4s;
 }
 
+#memeimage1 {
+  animation: bounceInUp 1s;
+  position: fixed;
+  bottom: 0;
+  left: 50px;
+  z-index: 10000;
+}
 
-@font-face {
- 
-font-family: "Robotfont"; 
+#memeimage1 img {
+  height: 180px;
+}
 
-src: url("../fonts/ARCADECLASSIC.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal; 
-} 
+#memeimage6 {
+  animation: bounceInUp 1s;
+  position: fixed;
+  bottom: 0;
+  left: 40%;
+  z-index: 10000;
+}
+
+#memeimage6 img {
+  height: 180px;
+}
+
+#memeimage3 {
+  animation: bounceInUp 1s;
+  position: fixed;
+  bottom: 0;
+  right: 350px;
+  z-index: 10000;
+}
+
+#memeimage3 img {
+  height: 130px;
+}
+
+#memeimage5 {
+  animation: bounceInUp 1s;
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  z-index: 10000;
+}
+
+#memeimage5 img {
+  height: 230px;
+}
+
+#memeimage2 {
+  animation: bounceInRight 1s;
+  position: fixed;
+  bottom: 400px;
+  right: -50px;
+  z-index: 10000;
+}
+
+#memeimage2 img {
+  height: 160px;
+  transform: rotate(-90deg);
+}
+
+#memeimage4 {
+  animation: bounceInLeft 1s;
+  position: fixed;
+  bottom: 300px;
+  left: -25px;
+  z-index: 10000;
+}
+
+#memeimage4 img {
+  height: 150px;
+  transform: rotate(90deg);
+}
