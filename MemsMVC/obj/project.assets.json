@@ -13129,11 +13129,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\dzyun\\Documents\\GitHub\\Blackstee.github.io\\MemsMVC\\MemsMVC.csproj",
+      "projectUniqueName": "C:\\Users\\dzyun\\Source\\Repos\\Blackstee.github.io\\MemsMVC\\MemsMVC.csproj",
       "projectName": "MemsMVC",
-      "projectPath": "C:\\Users\\dzyun\\Documents\\GitHub\\Blackstee.github.io\\MemsMVC\\MemsMVC.csproj",
+      "projectPath": "C:\\Users\\dzyun\\Source\\Repos\\Blackstee.github.io\\MemsMVC\\MemsMVC.csproj",
       "packagesPath": "C:\\Users\\dzyun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dzyun\\Documents\\GitHub\\Blackstee.github.io\\MemsMVC\\obj\\",
+      "outputPath": "C:\\Users\\dzyun\\Source\\Repos\\Blackstee.github.io\\MemsMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
